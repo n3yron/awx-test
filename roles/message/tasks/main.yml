@@ -1,6 +1,6 @@
 #- name: Hello Message 12345
-#    debug:
-#      msg: "Hello N3yron 123!"
+- debug:
+    msg: "Hello N3yron 123!"
 - name: "Check if Google is accessible."
   uri:
     url: https://google.com
