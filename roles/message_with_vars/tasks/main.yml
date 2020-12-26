@@ -7,4 +7,4 @@
     method: GET
     status_code: 200
 -  name: Root FS usage
-   shell: "ls /etc/"
+   shell: "ls {{ MYDIR }}"
